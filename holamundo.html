@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo JS</title>
+</head>
+<body>
+
+    <p>Para un saludo necesitamos saber su nombre</p>
+        <br>
+        <form>
+        Su nombre es : <input type="text" id="nombre"><br><br>
+
+        <input type="button" value="Saludar" onclick="mifunction()">
+
+        </form>
+
+        <script>
+            function mifunction(){
+            var name = document.getElementById("nombre").value;
+                alert("Hola " + name + " como estas?")
+            }
+        </script>
+
+</body>
+</html>
